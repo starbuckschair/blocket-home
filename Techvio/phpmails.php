@@ -19,8 +19,8 @@
         }
 
         // Set the recipient email address.
-        // FIXME: Update this to your desired email address.
-        $recipient = "mamunhossen515@gmail.com";
+        // FIXME: [BCK-2] Update this to your desired email address.
+        $recipient = "blocket.corp@gmail.com";
 
         // Set the email subject.
         $subject = "$subject";
