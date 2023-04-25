@@ -1,9 +1,7 @@
 <?php
 
     // Only process POST reqeusts.
-    // if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        if (true) {
-
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
 		$name = str_replace(array("\r","\n"),array(" "," "),$name);
@@ -21,8 +19,8 @@
         }
 
         // Set the recipient email address.
-        // FIXME: [BCK-2] Update this to your desired email address.
-        $recipient = "blocket.corp@gmail.com";
+        // FIXME: Update this to your desired email address.
+        $recipient = "water1793@gmail.com";
 
         // Set the email subject.
         $subject = "$subject";
